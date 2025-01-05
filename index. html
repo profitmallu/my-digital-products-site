@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .product {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Digital Store</h1>
+    <div class="product">
+        <h2>Product Name</h2>
+        <p>Description of your product.</p>
+        <p><strong>Price: $10</strong></p>
+    <a href="https://paypal.me/YOUR_PAYPAL_LINK" target="_blank"><button>Buy Now</button></a>
+    </div>
+</body>
+</html>
